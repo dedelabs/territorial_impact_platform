@@ -19,13 +19,21 @@ Strapi can only starts on 1337 port. There is an open issue about this [gh/strap
 
 `npm run dev`
 
+
+## Endpoints
+
+- localhost:1337/admin , Strapi Admin panel
+- localhost:1337/documentation , Swagger OpenAPI documentation
+- localhost:1337/api , Base API endpoint
+
 ## Project tree
 
 ```
-lerna.json              // Lerna confugurations
-src/                    // All the applications
+lerna.json                         // Lerna confugurations
+src/                               // All the application
 ├── admin
-│   └── package.json    // Strapi app
+│   └── package.json               // Strapi app
+|   └── src/extensions/**          // Strapi extensions settings 
 └── app2
     └── package.json
 ```
@@ -34,3 +42,4 @@ src/                    // All the applications
 
 - [Lerna](https://github.com/lerna/lerna/)
 - [Strapi](https://www.strapi.io/)
+- [Strapi API Doc](https://www.npmjs.com/package/strapi-plugin-documentation)
