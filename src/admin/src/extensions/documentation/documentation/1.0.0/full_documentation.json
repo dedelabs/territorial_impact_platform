@@ -14,26 +14,35 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-28T09:25:04.913Z"
+    "x-generation-date": "2022-03-28T11:29:47.328Z"
   },
   "x-strapi-config": {
-    "path": "/documentation",
+    "path": "/doc",
     "showGeneratedFiles": true,
     "generateDefaultResponse": true,
     "plugins": [
       "email",
       "upload"
+    ],
+    "pluginsForWhichToGenerateDoc": [
+      "email",
+      "upload",
+      "users-permissions"
     ]
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
+      "url": "http://localhost:1337",
       "description": "Development server"
+    },
+    {
+      "url": "YOUR_STAGING_SERVER",
+      "description": "Staging server"
     }
   ],
   "externalDocs": {
     "description": "Find out more",
-    "url": "https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html"
+    "url": "https://strapi.io/documentation/"
   },
   "security": [
     {
@@ -3112,5 +3121,6 @@
         "operationId": "delete/upload/files/{id}"
       }
     }
-  }
+  },
+  "tags": []
 }

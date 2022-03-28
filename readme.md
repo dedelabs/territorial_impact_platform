@@ -42,4 +42,5 @@ src/                               // All the application
 
 - [Lerna](https://github.com/lerna/lerna/)
 - [Strapi](https://www.strapi.io/)
-- [Strapi API Doc](https://www.npmjs.com/package/strapi-plugin-documentation)
+- [Strapi API Doc](https://docs.strapi.io/developer-docs/latest/plugins/documentation.html#installation)
+- [Vuetify Doc](https://vuetifyjs.com/en/getting-started/wireframes/)
