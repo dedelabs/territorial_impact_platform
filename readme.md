@@ -44,3 +44,9 @@ src/                               // All the application
 - [Strapi](https://www.strapi.io/)
 - [Strapi API Doc](https://docs.strapi.io/developer-docs/latest/plugins/documentation.html#installation)
 - [Vuetify Doc](https://vuetifyjs.com/en/getting-started/wireframes/)
+
+## TODO
+
+- replace Lerna with [NX](https://github.com/nrwl/nx)
+- use typescript?
+- use storybook?
