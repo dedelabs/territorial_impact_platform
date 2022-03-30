@@ -17,7 +17,9 @@ Strapi can only starts on 1337 port. There is an open issue about this [gh/strap
 
 ## Run
 
-`npm run dev`
+```
+    npm run dev
+```
 
 
 ## Endpoints
@@ -33,7 +35,7 @@ lerna.json                         // Lerna confugurations
 src/                               // All the application
 ├── admin
 │   └── package.json               // Strapi app
-|   └── src/extensions/**          // Strapi extensions settings 
+|   └── config/plugins.js          // Strapi extensions settings 
 └── app2
     └── package.json
 ```
@@ -48,5 +50,7 @@ src/                               // All the application
 ## TODO
 
 - replace Lerna with [NX](https://github.com/nrwl/nx)
+- open PR to fix plugins documentation
+- document login API
 - use typescript?
 - use storybook?
