@@ -27,6 +27,7 @@ Strapi can only starts on 1337 port. There is an open issue about this [gh/strap
 - localhost:1337/admin , Strapi Admin panel
 - localhost:1337/documentation , Swagger OpenAPI documentation
 - localhost:1337/api , Base API endpoint
+- localhost:3009/ , FE app
 
 ## Project tree
 
@@ -38,8 +39,8 @@ src/                                        // All the application
 │   └── config/plugins.js                   // Strapi (documentation) extensions settings 
 │   └──src/extensions/documentation/config
 │       └── settings.json                   // Strapi documentation more settings
-└── app2
-    └── package.json
+└── frontend
+    └── package.json                        // NuxtJS app
 ```
 
 ## Main packages
@@ -50,6 +51,8 @@ src/                                        // All the application
 - [Strapi Email designer](https://market.strapi.io/plugins/strapi-plugin-email-designer)
 - [Strapi Entity relationship charts](https://market.strapi.io/plugins/strapi-plugin-entity-relationship-chart)
 - [Vuetify Doc](https://vuetifyjs.com/en/getting-started/wireframes/)
+- [NuxtJS](https://nuxtjs.org/docs/get-started/installation)
+- [Vuetify](https://vuetifyjs.com/en/)
 
 ## TODO
 
