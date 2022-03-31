@@ -31,11 +31,13 @@ Strapi can only starts on 1337 port. There is an open issue about this [gh/strap
 ## Project tree
 
 ```
-lerna.json                         // Lerna confugurations
-src/                               // All the application
+lerna.json                                  // Lerna confugurations
+src/                                        // All the application
 ├── admin
-│   └── package.json               // Strapi app
-|   └── config/plugins.js          // Strapi extensions settings 
+│   └── package.json                        // Strapi app
+│   └── config/plugins.js                   // Strapi (documentation) extensions settings 
+│   └──src/extensions/documentation/config
+│       └── settings.json                   // Strapi documentation more settings
 └── app2
     └── package.json
 ```

@@ -23,16 +23,6 @@ module.exports = () => ({
         generateDefaultResponse: true,
         plugins: ['email', 'upload', 'users-permissions']
       },
-      servers: [
-        {
-          url: "http://localhost:1337",
-          description: "Development server"
-        },
-        {
-          url: "YOUR_STAGING_SERVER",
-          description: "Staging server"
-        }
-      ],
       externalDocs: {
         description: 'Find out more',
         url: 'https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html',

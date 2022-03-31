@@ -1,0 +1,16 @@
+{
+  "servers": [
+    {
+      "url": "http://localhost:1337",
+      "description": "Dev server"
+    },
+    {
+      "url": "YOUR_STAGING_SERVER",
+      "description": "Staging server"
+    },
+    {
+      "url": "YOUR_PRODUCTION_SERVER",
+      "description": "Production server"
+    }
+  ]
+}
