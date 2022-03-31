@@ -47,6 +47,8 @@ src/                                        // All the application
 - [Lerna](https://github.com/lerna/lerna/)
 - [Strapi](https://www.strapi.io/)
 - [Strapi API Doc](https://docs.strapi.io/developer-docs/latest/plugins/documentation.html#installation)
+- [Strapi Email designer](https://market.strapi.io/plugins/strapi-plugin-email-designer)
+- [Strapi Entity relationship charts](https://market.strapi.io/plugins/strapi-plugin-entity-relationship-chart)
 - [Vuetify Doc](https://vuetifyjs.com/en/getting-started/wireframes/)
 
 ## TODO
