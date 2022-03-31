@@ -54,7 +54,6 @@ src/                                        // All the application
 ## TODO
 
 - replace Lerna with [NX](https://github.com/nrwl/nx)
-- open PR to fix plugins documentation
-- document login API
+- https://market.strapi.io/plugins/strapi-plugin-slugify
 - use typescript?
 - use storybook?
