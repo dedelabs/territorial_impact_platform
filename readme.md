@@ -41,6 +41,7 @@ src/                                        // All the application
 │       └── settings.json                   // Strapi documentation more settings
 └── frontend
     └── package.json                        // NuxtJS app
+    └── nuxt.config.js                      // NuxtJS settings
 ```
 
 ## Main packages
@@ -50,8 +51,8 @@ src/                                        // All the application
 - [Strapi API Doc](https://docs.strapi.io/developer-docs/latest/plugins/documentation.html#installation)
 - [Strapi Email designer](https://market.strapi.io/plugins/strapi-plugin-email-designer)
 - [Strapi Entity relationship charts](https://market.strapi.io/plugins/strapi-plugin-entity-relationship-chart)
-- [Vuetify Doc](https://vuetifyjs.com/en/getting-started/wireframes/)
 - [NuxtJS](https://nuxtjs.org/docs/get-started/installation)
+- [NuxtStrapi](https://strapi-v0.nuxtjs.org/)
 - [Vuetify](https://vuetifyjs.com/en/)
 
 ## TODO

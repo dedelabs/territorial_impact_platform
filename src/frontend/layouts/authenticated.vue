@@ -59,7 +59,7 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <h1>Not Authenticated</h1>
+        <h1>Authenticated</h1>
         <Nuxt />
       </v-container>
     </v-main>
@@ -92,6 +92,7 @@
 <script>
 export default {
   name: 'DefaultLayout',
+  middleware: ['auth'],
   data () {
     return {
       clipped: false,
