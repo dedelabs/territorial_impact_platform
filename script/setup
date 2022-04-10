@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -x
+
+npm install
+npx lerna bootstrap # install applications dependencies
+docker pull postgres:13.6
