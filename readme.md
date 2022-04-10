@@ -27,7 +27,7 @@ Strapi can only starts on 1337 port. There is an open issue about this [gh/strap
 - localhost:1337/admin , Strapi Admin panel
 - localhost:1337/documentation , Swagger OpenAPI documentation
 - localhost:1337/api , Base API endpoint
-- localhost:3009/ , FE app
+- localhost:3000/ , FE app
 
 ## Project tree
 
