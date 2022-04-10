@@ -1,0 +1,30 @@
+#!/bin/sh
+
+set -x
+trap ctrl_c INT
+
+ctrl_c() {
+  cid=$(docker ps -a --format "{{.ID}}" --filter "name=tip")
+  docker stop "$cid" || true
+  docker rm "$cid"
+}
+
+echo "$(dirname -- "$0")"
+env_file="$(dirname -- "$0")/../src/admin/.env"
+if ! test -f "$env_file"; then
+  echo "copy and edit admin/.env.example"
+  exit 1
+else
+  echo "loading $env_file"
+  set -o allexport
+  . "$env_file"
+  set +o allexport
+fi
+
+docker run \
+  -e POSTGRES_PASSWORD="$DATABASE_PASSWORD" \
+  -e POSTGRES_USER="$DATABASE_USERNAME" \
+  -e POSTGRES_DB="$DATABASE_NAME" \
+  --name tip -p "$DATABASE_PORT":5432 postgres:13.6 &
+npm run dev
+ctrl_c
