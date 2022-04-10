@@ -57,8 +57,9 @@ export default {
           await this.$strapi.login({
             identifier: this.form.username,
             password: this.form.password
+          }).then(() => {
+            this.$router.push('/')
           })
-          console.log(this.$strapi.user)
         } catch (error) {
           console.error(error)
         }
